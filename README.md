@@ -33,8 +33,9 @@ This is the same mathematics used to resolve multipath in wireless channels.
 
 - `src/` – core modules
   - `music_latency.py`: MUSIC implementation for delay estimation
-  - `data_loader.py`: fetches asset data (Yahoo Finance or Kaggle)
+  - `data_loader.py`: fetches asset data
   - `visualization.py`: plots cross‑correlations and MUSIC spectra
+  - `generate_dummy_data.py`: creates synthetic lead-lag data for testing
 - `notebooks/` – interactive demo
 - `tests/` – unit tests
 
